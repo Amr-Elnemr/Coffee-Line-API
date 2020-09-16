@@ -30,4 +30,22 @@ An API for a coffee e-commerce App, showing and filtering line of coffee machine
 		python manage.py migrate
 		python manage.py runserver
 ```
+***
+## Using the API
+* Getting all Coffee Machines:
+http://localhost:8000/products/machine
+* Getting all Coffee Coffee pods:
+http://localhost:8000/products/pod
+* Filter coffee machines to by large size:
+http://localhost:8000/products/machine/?size=large
+* To have mutiple filters; for example: all espresso vanilla pods:
+http://localhost:8000/products/pod/?size=espresso&flavor=vanilla
+
+Filtering Params | Expected values
+------------ | -------------
+size | small, large, espresso
+water_line_compatible | True, False
+model | base, premium, deluxe
+pack_size | 1,3,5,7
+flavor | vanilla, caramel, psl, mocha, hazelnut
 
