@@ -34,9 +34,9 @@ An API for a coffee e-commerce App, showing and filtering line of coffee machine
 ## Using the API
 * Getting all Coffee Machines:
 http://localhost:8000/products/machine
-* Getting all Coffee Coffee pods:
+* Getting all Coffee pods:
 http://localhost:8000/products/pod
-* Filter coffee machines to by large size:
+* Filter coffee machines by large size:
 http://localhost:8000/products/machine/?size=large
 * To have mutiple filters; for example: all espresso vanilla pods:
 http://localhost:8000/products/pod/?size=espresso&flavor=vanilla
